@@ -1,0 +1,22 @@
+{
+  "name": "reading-marathon-backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "node src/test.js",
+    "producer": "node src/producer.js",
+    "consumer": "node src/consumer.js",
+    "server": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.9",
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
